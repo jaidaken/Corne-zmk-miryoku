@@ -34,10 +34,10 @@
 
     Colemak-DH {
       bindings = <
-        &kp ESCAPE  &kp Q  &kp W  &kp F      &kp P  &kp B        &kp J      &kp L  &kp U     &kp Y  &kp DELETE  &kp BSPC
-        &kp LSHFT   &kp A  &kp R  &kp S      &kp T  &kp G        &kp M      &kp N  &kp E     &kp I  &kp O       &lt 4 LEFT_ALT
-        &kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp COMMA    &kp SLASH  &kp K  &kp H     &kp D  &kp PERIOD  &mo 3
-                                  &lt 6 TAB  &mo 1  &kp SPACE    &kp RET    &mo 2  &kp LGUI
+        &kp ESCAPE  &kp Q  &kp W  &kp F      &kp P  &kp B        &kp J    &kp L  &kp U     &kp Y  &kp DELETE  &kp BSPC
+        &kp LSHFT   &kp A  &kp R  &kp S      &kp T  &kp G        &kp M    &kp N  &kp E     &kp I  &kp O       &lt 4 LEFT_ALT
+        &kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp COMMA    &kp SQT  &kp K  &kp H     &kp D  &kp PERIOD  &mo 3
+                                  &lt 6 TAB  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LGUI
       >;
     };
 
@@ -63,7 +63,7 @@
       bindings = <
         &trans  &kp GRAVE      &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp EXCLAMATION  &kp AT_SIGN  &kp POUND      &kp NUHS      &kp DOLLAR      &trans
         &none   &kp PIPE       &kp COLON          &kp SEMICOLON     &kp LEFT_BRACKET      &kp RBKT                 &kp PERCENT      &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp UNDERSCORE  &none
-        &none   &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS        &kp PLUS     &kp EQUAL      &kp TILDE     &trans          &none
+        &none   &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS        &kp PLUS     &kp EQUAL      &kp TILDE     &kp SLASH       &none
                                                   &trans            &trans                &trans                   &trans           &trans       &trans
       >;
     };
