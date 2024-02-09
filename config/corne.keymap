@@ -37,25 +37,25 @@
         &kp ESCAPE  &kp Q  &kp W  &kp F      &kp P  &kp B        &kp J      &kp L  &kp U     &kp Y  &kp DELETE  &kp BSPC
         &kp LSHFT   &kp A  &kp R  &kp S      &kp T  &kp G        &kp M      &kp N  &kp E     &kp I  &kp O       &lt 4 LEFT_ALT
         &kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp COMMA    &kp SLASH  &kp K  &kp H     &kp D  &kp PERIOD  &mo 3
-                                  &lt 6 TAB  &mo 2  &kp SPACE    &kp RET    &mo 1  &kp LGUI
+                                  &lt 6 TAB  &mo 1  &kp SPACE    &kp RET    &mo 2  &kp LGUI
       >;
     };
 
     Nav {
       bindings = <
-        &trans  &none  &none  &none   &none   &none     &kp K_REDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &trans
-        &none   &none  &none  &none   &none   &none     &kp CAPS    &kp LEFT   &kp DOWN    &kp UP       &kp RIGHT   &trans
-        &none   &none  &none  &none   &none   &none     &kp INSERT  &kp HOME   &kp PG_DN   &kp PG_UP    &kp END     &none
-                              &trans  &trans  &trans    &trans      &trans     &trans
+        &trans  &none  &none  &none   &none  &none     &kp K_REDO  &kp K_CUT       &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &trans
+        &trans  &none  &none  &none   &none  &none     &kp CAPS    &kp LEFT_ARROW  &kp DOWN    &kp UP       &kp RIGHT   &trans
+        &trans  &none  &none  &none   &none  &none     &kp INSERT  &kp HOME        &kp PG_DN   &kp PG_UP    &kp END     &none
+                              &trans  &none  &trans    &trans      &none           &none
       >;
     };
 
     Numbers {
       bindings = <
-        &trans  &none  &none  &none   &none   &none     &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
-        &none   &none  &none  &none   &none   &none     &kp BSLH   &kp N4  &kp N5  &kp N6  &kp PLUS   &none
-        &none   &none  &none  &none   &none   &none     &kp STAR   &kp N1  &kp N2  &kp N3  &kp DOT    &none
-                              &trans  &trans  &trans    &trans     &kp N0  &trans
+        &trans  &kp EQUAL     &kp N7  &kp N8  &kp N9  &kp MINUS    &none   &none  &none   &none  &none  &trans
+        &trans  &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS     &none   &none  &none   &none  &none  &trans
+        &trans  &kp FSLH      &kp N1  &kp N2  &kp N3  &kp DOT      &none   &none  &none   &none  &none  &none
+                                      &trans  &kp N0  &trans       &trans  &none  &trans
       >;
     };
 
