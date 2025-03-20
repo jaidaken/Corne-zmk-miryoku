@@ -1,6 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include "keys_en_gb.h"
 #include "keys_en_gb_extended.h"
 
 // dt-formatter: indent = "  "
