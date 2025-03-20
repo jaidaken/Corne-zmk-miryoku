@@ -1,4 +1,4 @@
-#include "keys_en_gb_extended.h"
+#include "keys_en_gb.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
