@@ -53,9 +53,9 @@
 
     Symbols {
       bindings = <
-        &trans  &kp GRAVE      &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp EXCLAMATION  &kp AT_SIGN  &kp GB_POUND_SIGN  &kp DOLLAR    &kp PERCENT     &trans
-        &none   &kp PIPE       &kp COLON          &kp SEMICOLON     &kp LEFT_BRACKET      &kp RBKT                 &kp HASH         &kp CARET    &kp AMPERSAND      &kp ASTERISK  &kp UNDERSCORE  &none
-        &none   &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS        &kp PLUS     &kp EQUAL          &kp TILDE     &kp SLASH       &none
+        &trans  &kp GRAVE      &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp EXCLAMATION  &kp AT_SIGN  &kp GB_POUND_SIGN  &kp GB_DOLLAR  &kp PERCENT     &trans
+        &none   &kp PIPE       &kp COLON          &kp SEMICOLON     &kp LEFT_BRACKET      &kp RBKT                 &kp GB_HASH      &kp CARET    &kp AMPERSAND      &kp ASTERISK   &kp UNDERSCORE  &none
+        &none   &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS        &kp PLUS     &kp EQUAL          &kp TILDE      &kp SLASH       &none
                                                   &trans            &trans                &trans                   &trans           &trans       &trans
       >;
     };
